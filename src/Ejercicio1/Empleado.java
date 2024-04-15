@@ -1,8 +1,6 @@
 package Ejercicio1;
 
 public class Empleado {
-
-	
 	//propiedades
 	private final int id;
 	private String Nombre;
@@ -46,11 +44,13 @@ public class Empleado {
 	
 	//método ToString()
 	public String toString() {
-		return "Empleado: "+ Nombre + ", edad:"+ edad +", Legajo:" + id ;
+		return "Empleado: "+ Nombre + ", Edad:"+ edad +", Legajo:" + id ;
 	}
 	
-	//metodo que devuelve el proximo id a ser generado a
+	//metodo que devuelve el proximo id a ser generado
 	public static int devuelveProximoID() { 
 		return contadorIDs + 1;
 	}
+		
+
 }
